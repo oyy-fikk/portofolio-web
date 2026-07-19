@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    .container {
+      display: flex;
+      width: 90%;
+      max-width: 900px;
+      margin: 30px auto;
+      background-color: #ffffff;
+      gap: 20px;
+    }
+
+    .kolom {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .info {
+      background-color: #e0f7fa;
+    }
+
+    .proyek {
+      background-color: #fff3e0;
+    }
+
+    h1, h2 {
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    li {
+      margin-bottom: 8px;
+      padding: 8px;
+      background-color: #ffffff;
+      border-left: 4px solid #333;
+    }
+
+    .kontak {
+      margin-top: 15px;
+    }
+
+    .kontak a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #ffffff;
+      background-color: #333;
+      padding: 8px 16px;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="kolom info">
+      <h1>Tentang Saya</h1>
+      <p><strong>Nama:</strong> Taufik Kurniawan</p>
+      <p><strong>Jurusan:</strong> Teknologi Informasi</p>
+      <p><strong>Bio:</strong> Mahasiswa yang sedang belajar pengembangan web.</p>
+
+      <div class="kontak">
+        <h2>Kontak</h2>
+        <p>Email: 254504xxxx@student.up45.ac.id</p>
+        <a href="mailto:25450410027@student.up45.ac.id">Kirim Email</a>
+      </div>
+    </div>
+
+    <div class="kolom proyek">
+  <h2>Daftar Proyek</h2>
+  <ul>
+    <li>Struktur Dasar Halaman Web (HTML Dasar)</li>
+    <li>Elemen Teks dan Gambar (strong, em, blockquote, img)</li>
+    <li>Tabel dan Formulir Pendaftaran</li>
+    <li>Pengenalan CSS & Selektor Dasar</li>
+    <li>Layout dengan Box Model dan Flexbox</li>
+    <li>Styling Responsif & Media Query</li>
+  </ul>
+</div>
+  </div>
+
+</body>
+</html>
